@@ -64,9 +64,15 @@ Produktionsgrenen är **`claude/website-automation-o26eu3`**. Push dit publicera
 
 ### Kvar att göra i GitHub
 
-1. **Settings → Pages → Source:** välj **GitHub Actions**.
-   *Tills detta är gjort misslyckas publiceringen med `Pages is not enabled` — bygget
-   och kontrollen fungerar ändå. Felet försvinner av sig självt när inställningen är på.*
+1. **Settings → Pages → Source:** välj **GitHub Actions**. ← *måste göras för hand en gång*
+
+   Det här steget går inte att automatisera. Workflowen försöker (`enablement: true`),
+   men GitHubs workflow-token saknar rättighet att skapa Pages-sajten och svarar
+   `Create Pages site failed: Resource not accessible by integration`.
+
+   Tills det är gjort är publiceringen röd — **bygget och valideringen fungerar ändå**,
+   det är bara sista steget som fattas. När inställningen är på blir nästa push grön,
+   eller så kör du workflowen direkt via **Actions → Bygg och publicera → Run workflow**.
 2. Egen domän: **Settings → Pages → Custom domain** → `alltiventduct.se`, och peka
    DNS mot GitHub Pages. Lägg sedan en fil `public/CNAME` som innehåller `alltiventduct.se`.
 
