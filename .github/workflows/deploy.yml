@@ -1,8 +1,10 @@
 name: Bygg och publicera
 
+# Produktionsgren. Byter du namn på grenen (t.ex. till "main") ändrar du raden
+# nedan — och motsvarande rad i kontroll.yml.
 on:
   push:
-    branches: [main]
+    branches: ["claude/website-automation-o26eu3"]
   workflow_dispatch:
 
 permissions:

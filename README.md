@@ -52,19 +52,29 @@ I fälten `tech.specs[].value` och `about.facts[].text` går det att använda:
 ## Publicering
 
 ```
-Du ändrar content/site.json  →  pushar till main  →  sidan är uppe inom ~1 minut
+Du ändrar content/site.json  →  pushar  →  sidan är uppe inom ~1 minut
 ```
+
+Produktionsgrenen är **`claude/website-automation-o26eu3`**. Push dit publicerar sidan.
 
 | Workflow | När den körs | Vad den gör |
 |---|---|---|
-| `Bygg och publicera` | push till `main` | Bygger sidan och publicerar den på GitHub Pages |
+| `Bygg och publicera` | push till produktionsgrenen | Bygger sidan och publicerar den på GitHub Pages |
 | `Kontroll` | pull request eller annan gren | Validerar innehållet och sparar en förhandsgranskning som artefakt |
 
-### Engångsinställning i GitHub
+### Kvar att göra i GitHub
 
 1. **Settings → Pages → Source:** välj **GitHub Actions**.
+   *Tills detta är gjort misslyckas publiceringen med `Pages is not enabled` — bygget
+   och kontrollen fungerar ändå. Felet försvinner av sig självt när inställningen är på.*
 2. Egen domän: **Settings → Pages → Custom domain** → `alltiventduct.se`, och peka
    DNS mot GitHub Pages. Lägg sedan en fil `public/CNAME` som innehåller `alltiventduct.se`.
+
+### Om du vill byta till en `main`-gren senare
+
+Repot var tomt när det sattes upp, så grenen ovan blev standardgren. Vill du hellre
+ha `main`: byt namn på grenen under **Settings → Branches**, och ändra sedan
+grennamnet på en rad i `deploy.yml` och en rad i `kontroll.yml`.
 
 ---
 
