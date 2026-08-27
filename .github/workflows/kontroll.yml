@@ -1,0 +1,32 @@
+name: Kontroll
+
+on:
+  pull_request:
+  push:
+    branches-ignore: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Validera innehåll och bygge
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Kontrollera content/site.json och bygget
+        run: npm run check
+
+      - name: Bygg och spara förhandsgranskning
+        run: npm run build
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: forhandsgranskning
+          path: dist
+          retention-days: 14

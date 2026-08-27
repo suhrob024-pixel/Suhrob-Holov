@@ -1,0 +1,12 @@
+{
+  "name": "alltiventduct-se",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hemsida för AlltiVent Duct AB — byggs automatiskt från content/site.json",
+  "scripts": {
+    "build": "node build.js",
+    "check": "node build.js --check",
+    "dev": "node scripts/dev.js"
+  },
+  "engines": { "node": ">=20" }
+}

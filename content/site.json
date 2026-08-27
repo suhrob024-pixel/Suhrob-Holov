@@ -1,0 +1,226 @@
+{
+  "meta": {
+    "lang": "sv",
+    "title": "AlltiVent Duct AB — Rektangulära ventilationskanaler i Stockholm",
+    "description": "Rektangulära ventilationskanaler, böjar och detaljer i galvaniserat stål och aluminium. Egen produktion i Spånga, Stockholm. Leveransstart januari 2027.",
+    "siteUrl": "https://alltiventduct.se",
+    "ogImage": "/og.png"
+  },
+
+  "company": {
+    "name": "AlltiVent Duct",
+    "nameSuffix": "AB",
+    "legalName": "AlltiVent Duct AB",
+    "orgNr": "559586-1542",
+    "street": "Domnarvsgatan 12",
+    "postalCode": "163 53",
+    "city": "Spånga",
+    "region": "Stockholm",
+    "country": "SE",
+    "parent": "Allt i Ventilation Stockholm AB",
+    "copyrightYear": 2026
+  },
+
+  "emails": {
+    "offert": "offert@alltiventduct.se",
+    "order": "order@alltiventduct.se",
+    "special": "special@alltiventduct.se",
+    "info": "info@alltiventduct.se"
+  },
+
+  "topbar": {
+    "tagline": "REKTANGULÄRA VENTILATIONSKANALER · EGEN PRODUKTION I SPÅNGA, STOCKHOLM",
+    "links": [
+      { "label": "Offert", "email": "offert" },
+      { "label": "Order", "email": "order" }
+    ]
+  },
+
+  "nav": [
+    { "label": "Produkter", "href": "#produkter" },
+    { "label": "Teknisk data", "href": "#teknik" },
+    { "label": "Tjänster", "href": "#tjanster" },
+    { "label": "Miljö", "href": "#miljo" },
+    { "label": "Om oss", "href": "#om" },
+    { "label": "Begär offert", "href": "#kontakt", "cta": true }
+  ],
+
+  "hero": {
+    "badge": "LEVERANSSTART JANUARI 2027",
+    "headingLines": ["Rektangulära kanaler.", "Egen produktion.", "Mitt i Stockholm."],
+    "accentLine": 2,
+    "lead": "AlltiVent Duct tillverkar rektangulära ventilationskanaler, böjar och detaljer i galvaniserat stål och aluminium. Standardsortiment ur prislista, specialmått efter er ritning — från en fabrik som ligger nära era projekt.",
+    "ctas": [
+      { "label": "Begär offert", "href": "#kontakt", "style": "primary" },
+      { "label": "Se produktprogrammet", "href": "#produkter", "style": "ghost" }
+    ],
+    "figure": {
+      "width": "B = 200–2400 mm",
+      "height": "A = 200–2400 mm",
+      "length": "L = 300–2000 mm"
+    }
+  },
+
+  "routes": [
+    { "title": "Offert", "text": "Skicka mängdförteckning eller ritning — vi räknar.", "email": "offert" },
+    { "title": "Order", "text": "Lägg beställning mot offert eller prislista.", "email": "order" },
+    { "title": "Special", "text": "Måttbeställda detaljer och udda dimensioner.", "email": "special" },
+    { "title": "Prislista", "text": "Beställ Prislista 2027-1 med era rabattvillkor.", "email": "info" }
+  ],
+
+  "products": {
+    "id": "produkter",
+    "label": "Produktprogram",
+    "heading": "Ett komplett rektangulärt kanalsystem",
+    "intro": "Falsade kanaler och detaljer med flänsanslutning, tillverkade i galvaniserat stål eller aluminium. Standardmått finns i Prislista 2027-1 — övriga mått tillverkas efter beställning. Samtliga produkter beställs på artikelkod.",
+    "columns": ["Kod", "Produkt", "Beskrivning"],
+    "items": [
+      { "code": "AKA", "name": "Rakkanal", "description": "Rektangulär rakkanal i sex standardlängder, 200–2400 mm per sida" },
+      { "code": "AKB", "name": "Böj", "description": "Böjar i valfri vinkel, med eller utan ledskenor" },
+      { "code": "AKD", "name": "Dimensionsförändring", "description": "Symmetriska och osymmetriska övergångar mellan kanaldimensioner" },
+      { "code": "AKÖ", "name": "Övergång till cirkulärt", "description": "Rektangulärt till cirkulärt, för anslutning mot spirosystem" },
+      { "code": "AKS", "name": "S-förskjutning", "description": "Sidoförskjutning där kanalstråket behöver flyttas i sidled eller höjd" },
+      { "code": "AKV", "name": "Avstick", "description": "Avstick för anslutning av grenkanal, rektangulärt eller cirkulärt" },
+      { "code": "AKT", "name": "T-stycke", "description": "Delning av kanalstråk i två riktningar" },
+      { "code": "AKF", "name": "Avgrening", "description": "Grenanslutning i valfri vinkel efter ritning" },
+      { "code": "AKG", "name": "Gavel", "description": "Lock för avslutning av kanalstråk" },
+      { "code": "AKR", "name": "Stosram", "description": "Anslutningsram mot aggregat, spjäll och don" }
+    ],
+    "accessoriesLabel": "Tillbehör & montagedetaljer",
+    "accessories": [
+      "Flänsprofil",
+      "Flänshörn",
+      "Gejdstång",
+      "Packningslist",
+      "Hattprofil",
+      "Hattprofilhörn",
+      "Maskeringshörn",
+      "Monteringsverktyg"
+    ]
+  },
+
+  "tech": {
+    "id": "teknik",
+    "label": "Teknisk data",
+    "heading": "Specifikationer",
+    "intro": "Konstruktion och materialval enligt vedertagen svensk branschpraxis för rektangulära kanalsystem. Fullständigt tekniskt underlag lämnas tillsammans med offert.",
+    "specs": [
+      { "name": "Material, stål", "value": "Varmförzinkat stål {mono:DX51D+Z} enligt EN 10346" },
+      { "name": "Material, aluminium", "value": "Aluminium på förfrågan — för korrosiva miljöer och viktkänsliga installationer" },
+      { "name": "Dimensioner", "value": "{mono:200–2400 mm} per sida, standardmått enligt Prislista 2027-1" },
+      { "name": "Standardlängder", "value": "{mono:300 / 700 / 1000 / 1200 / 1500 / 2000 mm}" },
+      { "name": "Konstruktion", "value": "Falsad kanal med flänsanslutning, stagning efter dimension" },
+      { "name": "Anslutning", "value": "Flänsprofil med hörnvinklar och packningslist — monteringsfärdig leverans" },
+      { "name": "Specialutförande", "value": "Måttbeställda kanaler och detaljer efter ritning, utan tillägg för udda mått" },
+      { "name": "Leverans", "value": "Pallade och märkta leveranser, plastade kanaländar" }
+    ]
+  },
+
+  "services": {
+    "id": "tjanster",
+    "label": "Tjänster",
+    "heading": "Vi gör mer än att tillverka kanaler",
+    "intro": "Tiden går åt till mätning, kapning och väntan på leverans. Våra tjänster är byggda för att ta bort de momenten från ert projekt.",
+    "items": [
+      { "title": "Styckning från ritning", "text": "Skicka era ritningar — vi styckar upp kanalstråket, tar fram mängdförteckning och levererar färdiga längder märkta per position." },
+      { "title": "Specialtillverkning", "text": "Udda mått, avvikande vinklar och platsbyggda lösningar. Vi tar special som standardarbete, inte som undantag." },
+      { "title": "Snabbleverans", "text": "Kompletteringar och akuta behov produceras med förtur. Kort transportväg inom Stockholm gör att ni får leveransen samma vecka." },
+      { "title": "Måttning på plats", "text": "Vid komplicerade anslutningar kommer vi ut och mäter innan tillverkning — så att detaljen passar första gången." },
+      { "title": "Lagerhållning", "text": "Vi håller era standarddimensioner i lager och levererar mot avrop under projektets gång." },
+      { "title": "Märkning per position", "text": "Tydliga märklappar kopplade till ritningens positionsnummer — montörerna slipper leta och mäta om." }
+    ]
+  },
+
+  "why": {
+    "label": "Varför AlltiVent",
+    "heading": "Tillverkare med installatörens perspektiv",
+    "items": [
+      { "tag": "01 · PRIS", "title": "Transparent prissättning", "text": "Öppen prislista med tydliga rabattvillkor. Ni vet vad ni betalar innan ni beställer — och vi förhandlar direkt, utan koncernled emellan." },
+      { "tag": "02 · SPECIAL", "title": "Snabb på det svåra", "text": "Vi är ett litet, egenägt bolag utan tröga interna beställningsflöden. Specialdetaljer går rakt in i produktionen." },
+      { "tag": "03 · NÄRHET", "title": "Fabriken ligger i Stockholm", "text": "Produktion i Spånga betyder korta transporter, snabba kompletteringar och möjlighet att komma förbi och titta på en detalj innan den tillverkas." }
+    ]
+  },
+
+  "env": {
+    "id": "miljo",
+    "label": "Miljö & hållbarhet",
+    "heading": "Dokumenterade materialval",
+    "intro": "Miljöcertifierade byggprojekt kräver dokumentation ända ner på materialnivå. Vi bygger vår materialförsörjning för att kunna leverera det underlaget från dag ett.",
+    "points": [
+      { "icon": "document", "title": "EPD-underlag", "text": "miljövarudeklaration för det stål vi använder, för era beräkningar i Miljöbyggnad, BREEAM och LEED." },
+      { "icon": "leaf", "title": "Koldioxidreducerat stål", "text": "vi erbjuder kanaler i stål med hög andel återvunnet material på förfrågan." },
+      { "icon": "recycle", "title": "Materialspill i retur", "text": "plåtspill från produktionen går tillbaka i stålkretsloppet via etablerad återvinning." },
+      { "icon": "pallet", "title": "Retursystem för pallar", "text": "emballage och lastbärare hämtas tillbaka vid nästa leverans." }
+    ],
+    "figureLabel": "600 × 400"
+  },
+
+  "about": {
+    "id": "om",
+    "label": "Om oss",
+    "heading": "Byggt av folk som monterat kanalerna själva",
+    "intro": "AlltiVent Duct AB är en del av Allt i Ventilation Stockholm-gruppen, med mångårig erfarenhet av ventilationsinstallation i Stockholmsregionen. Vi har stått på byggarbetsplatserna och vet exakt vad som kostar tid: fel mått, sena leveranser och detaljer som inte passar. Därför bygger vi en tillverkning som utgår från installatörens vardag.",
+    "facts": [
+      { "tag": "PRODUKTION", "text": "{b:Domnarvsgatan 12, Spånga} — ca 800 m² produktions- och lageryta" },
+      { "tag": "MARKNAD", "text": "Installationsföretag, grossister och återförsäljare i {b:Stockholm och Mälardalen}" },
+      { "tag": "ÄGARE", "text": "Helägt av {b:Allt i Ventilation Stockholm AB}" },
+      { "tag": "START", "text": "Leveransstart {b:januari 2027} — offertförfrågningar tas emot redan nu" }
+    ],
+    "figureLabel": "SPÅNGA · STOCKHOLM"
+  },
+
+  "ctaBand": {
+    "heading": "Räkna på nästa projekt med oss",
+    "text": "Skicka mängdförteckning, ritning eller bara ett par dimensioner. Vi återkommer med offert och nettopriser enligt Prislista 2027-1.",
+    "button": { "label": "Skicka offertförfrågan", "email": "offert" }
+  },
+
+  "contact": {
+    "id": "kontakt",
+    "label": "Kontakt",
+    "heading": "Hör av er",
+    "cards": [
+      {
+        "title": "Offert & order",
+        "text": "Mejla dimensioner, längder och kvantiteter — vi svarar normalt inom en arbetsdag.",
+        "emails": ["offert", "order"]
+      },
+      {
+        "title": "Produktion & besök",
+        "address": true,
+        "note": "ORG.NR 559586-1542"
+      },
+      {
+        "title": "Prislista 2027-1",
+        "text": "Vår kompletta prislista med standardsortiment och rabattstruktur skickas på begäran.",
+        "emails": ["info"]
+      }
+    ]
+  },
+
+  "footer": {
+    "about": "AlltiVent Duct AB tillverkar rektangulära ventilationskanaler och detaljer i galvaniserat stål och aluminium. Med egen produktion i Spånga levererar vi standardsortiment ur prislista och specialtillverkade detaljer efter ritning till installatörer och grossister i Stockholmsregionen.",
+    "columns": [
+      {
+        "title": "Produkter",
+        "links": [
+          { "label": "Rakkanal AKA", "href": "#produkter" },
+          { "label": "Böjar AKB", "href": "#produkter" },
+          { "label": "Dimensionsförändringar AKD", "href": "#produkter" },
+          { "label": "Övergång till cirkulärt AKÖ", "href": "#produkter" },
+          { "label": "Tillbehör & montagedetaljer", "href": "#produkter" }
+        ]
+      },
+      {
+        "title": "Kontakt",
+        "links": [
+          { "label": "offert@alltiventduct.se", "email": "offert" },
+          { "label": "order@alltiventduct.se", "email": "order" },
+          { "label": "special@alltiventduct.se", "email": "special" },
+          { "label": "Domnarvsgatan 12, 163 53 Spånga" }
+        ]
+      }
+    ],
+    "bottomRight": "EGEN PRODUKTION I SPÅNGA · STOCKHOLM"
+  }
+}
